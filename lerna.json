@@ -1,0 +1,12 @@
+{
+  "npmClient": "yarn",
+  "command": {
+
+  },
+  "packages": [
+    "../utils/*",
+    "../commons/*",
+    "../services/*"
+  ],
+  "version": "independent"
+}

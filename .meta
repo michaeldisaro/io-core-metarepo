@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "../commons/io-ts-commons": "https://github.com/pagopa/io-ts-commons",
+    "../commons/io-functions-commons": "https://github.com/pagopa/io-functions-commons.git",
+    "../services/io-functions-admin": "https://github.com/pagopa/io-functions-admin.git"
+  }
+}

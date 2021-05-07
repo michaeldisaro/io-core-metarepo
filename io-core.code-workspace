@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "Commons",
+      "path": "../commons"
+    },
+    {
+      "name": "Services",
+      "path": "../services"
+    },
+    {
+      "name": "Utils",
+      "path": "../utils"
+    },
+    {
+      "name": "Workspace",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "azureFunctions.showExtensionsCsprojWarning": false,
+    "files.associations": {
+      "**/.devops/*.yml": "azure-pipelines",
+      "**/.devops/**/*.yml": "azure-pipelines"
+    },
+    "files.exclude": {
+      "**/*.js": { "when": "$(basename).ts" },
+      "**/*.map": { "when": "$(basename)" },
+      "**/**.js": { "when": "$(basename).tsx" },
+      "**/node_modules": true
+    },
+    "editor.showFoldingControls": "always",
+    "scm.diffDecorationsGutterWidth": 5,
+    "editor.renderLineHighlight": "all"
+  }
+}
