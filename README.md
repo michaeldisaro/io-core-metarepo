@@ -8,6 +8,11 @@ sudo npm i -g meta
 sudo npm i -g lerna
 ```
 
+Bootstrap script needs `jq` installed, on macos install it with brew:
+
+```
+brew install jq
+```
 # Usage
 
 From inside io-core-metarepo folder run:
