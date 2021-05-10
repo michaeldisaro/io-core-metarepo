@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# create the workspace
+npm i -g meta
+npm i -g lerna
+meta git update
+lerna bootstrap
+
+# create fake gitmodules file to allow vscode scm to work
+repos=`jq ".projects | keys[]" .meta`
+while IFS='' read -r repo; do
+    path="$(echo "$repo" | sed -e 's/["]//g')" 
+    repo="$(echo "$path" | sed -e 's/.*\///')"
+    echo "[submodule \"$repo\"]" >> .gitmodules
+    echo "path = $path" >> .gitmodules
+    echo "url = \"\"" >> .gitmodules
+    echo "" >> .gitmodules
+done <<< "$repos"

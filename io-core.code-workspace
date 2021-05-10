@@ -2,15 +2,15 @@
   "folders": [
     {
       "name": "Commons",
-      "path": "../commons"
+      "path": "./commons"
     },
     {
       "name": "Services",
-      "path": "../services"
+      "path": "./services"
     },
     {
       "name": "Utils",
-      "path": "../utils"
+      "path": "./utils"
     },
     {
       "name": "Workspace",
@@ -27,7 +27,10 @@
       "**/*.js": { "when": "$(basename).ts" },
       "**/*.map": { "when": "$(basename)" },
       "**/**.js": { "when": "$(basename).tsx" },
-      "**/node_modules": true
+      "**/node_modules": true,
+      "commons": true,
+      "utils": true,
+      "services": true
     },
     "editor.showFoldingControls": "always",
     "scm.diffDecorationsGutterWidth": 5,

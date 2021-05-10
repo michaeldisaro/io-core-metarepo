@@ -4,9 +4,9 @@
 
   },
   "packages": [
-    "../utils/*",
-    "../commons/*",
-    "../services/*"
+    "./utils/*",
+    "./commons/*",
+    "./services/*"
   ],
   "version": "independent"
 }
