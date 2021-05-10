@@ -2,7 +2,7 @@
 
 # create the workspace
 meta git update
-lerna bootstrap
+lerna bootstrap -- --frozen-lockfile
 
 # create fake gitmodules file to allow vscode scm to work
 echo "" > .gitmodules
