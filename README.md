@@ -18,8 +18,17 @@ brew install jq
 From inside io-core-metarepo folder run:
 
 ```
-sh bootstrap
+sh cmd-init
 ```
 
-You can operate on repos as usually, local repositories are linked by lerna. You can run meta commands to make git operations, and lerna commands to build any project with its referenced ones.
+To develop with locally linked projects run:
 
+```
+sh cmd-set-mode local
+```
+
+To develop with original dependencies taken from package.json:
+
+```
+sh cmd-set-mode npm
+```
