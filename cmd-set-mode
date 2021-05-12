@@ -1,0 +1,29 @@
+#!/bin/sh
+
+usage="This commands set the development mode. Pass 'local' or 'npm' to link or not projects locally"
+
+if [[ $# -lt 1 ]] ; then
+    echo "$usage"
+    exit 1
+fi
+
+inputs=( "$@" )
+mode="${inputs[0]}"
+
+case $mode in
+  local)
+    echo "Linking repositories with lerna bootstrap"
+    meta exec "rm -rf node_modules"
+    lerna bootstrap -- --frozen-lockfile
+    ;;
+
+  npm)
+    echo "Downloading all dependencies from npm"
+    meta exec "rm -rf node_modules"
+    meta exec "yarn install --frozen-lockfile"
+    ;;
+
+  *)
+    echo "Mode not valid"
+    ;;
+esac

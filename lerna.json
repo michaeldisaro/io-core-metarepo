@@ -6,7 +6,9 @@
   "packages": [
     "./utils/*",
     "./commons/*",
-    "./services/*"
+    "./services/*",
+    "./testing/*",
+    "./infrastructure/*"    
   ],
   "version": "independent"
 }

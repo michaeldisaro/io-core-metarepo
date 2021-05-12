@@ -1,16 +1,24 @@
 {
   "folders": [
+      {
+        "name": "Services",
+        "path": "./services"
+      },
     {
       "name": "Commons",
       "path": "./commons"
     },
     {
-      "name": "Services",
-      "path": "./services"
-    },
-    {
       "name": "Utils",
       "path": "./utils"
+    },
+    {
+      "name": "Testing",
+      "path": "./testing"
+    },
+    {
+      "name": "Infrastructure",
+      "path": "./infrastructure"
     },
     {
       "name": "Workspace",
@@ -30,7 +38,9 @@
       "**/node_modules": true,
       "commons": true,
       "utils": true,
-      "services": true
+      "services": true,
+      "testing": true,
+      "infrastructure": true
     },
     "editor.showFoldingControls": "always",
     "scm.diffDecorationsGutterWidth": 5,

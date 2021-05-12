@@ -3,6 +3,8 @@
 /utils
 /commons
 /services
+/infrastructure
+/testing
 .gitmodules
 
 # classic ignores

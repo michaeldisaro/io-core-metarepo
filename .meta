@@ -3,6 +3,16 @@
     "utils/openapi-codegen-ts": "https://github.com/pagopa/openapi-codegen-ts.git",
     "commons/io-ts-commons": "https://github.com/pagopa/io-ts-commons",
     "commons/io-functions-commons": "https://github.com/pagopa/io-functions-commons.git",
-    "services/io-functions-admin": "https://github.com/pagopa/io-functions-admin.git"
+    "testing/io-mock": "https://github.com/pagopa/io-mock.git",
+    "infrastructure/pagopa-authorization": "https://github.com/pagopa/pagopa-authorization.git",
+    "infrastructure/io-infrastructure-live-new": "https://github.com/pagopa/io-infrastructure-live-new.git",
+    "infrastructure/io-infrastructure-modules-new": "https://github.com/pagopa/io-infrastructure-modules-new.git",
+    "services/io-backend": "https://github.com/pagopa/io-backend.git",
+    "services/io-functions-admin": "https://github.com/pagopa/io-functions-admin.git",
+    "services/io-functions-app": "https://github.com/pagopa/io-functions-app.git",
+    "services/io-functions-services": "https://github.com/pagopa/io-functions-services.git",
+    "services/io-functions-pushnotifications": "https://github.com/pagopa/io-functions-pushnotifications.git",
+    "services/io-functions-public": "https://github.com/pagopa/io-functions-public.git",
+    "services/io-functions-assets": "https://github.com/pagopa/io-functions-assets.git"
   }
 }
