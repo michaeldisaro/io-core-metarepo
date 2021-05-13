@@ -1,0 +1,29 @@
+#!/bin/sh
+
+usage="
+    This command start|stop io-mock. You provide one service name as argument.
+    cmd-io-mock start|stop [service]
+"
+
+if [[ $# -lt 1 ]] ; then
+    echo "$usage"
+    exit 1
+fi
+
+inputs=( "$@" )
+command="${inputs[0]}"
+service="${inputs[1]}"
+
+cd testing/io-mock
+
+case $command in
+    start)
+        yarn $command -d $service
+        ;;
+    stop)
+        yarn stop
+        ;;
+    *)
+        echo "wrong command"
+        ;;
+esac
