@@ -1,9 +1,9 @@
 {
   "folders": [
-      {
-        "name": "Services",
-        "path": "./services"
-      },
+    {
+      "name": "Services",
+      "path": "./services"
+    },
     {
       "name": "Commons",
       "path": "./commons"
@@ -45,5 +45,25 @@
     "editor.showFoldingControls": "always",
     "scm.diffDecorationsGutterWidth": 5,
     "editor.renderLineHighlight": "all"
+  },
+  "launch": {
+    "configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "fn-admin: Attach to Docker",
+        "protocol": "auto",
+        "port": 5861,
+        "restart": true,
+        "localRoot": "${workspaceFolder:Services}/io-functions-admin",
+        "remoteRoot": "/usr/src/app",
+        "outFiles": [
+          "${workspaceFolder:Services}/io-functions-admin/src/**/*.js"
+        ],
+        "skipFiles": [
+          "<node_internals>/**/*.js"
+        ]
+      }
+    ]
   }
 }
