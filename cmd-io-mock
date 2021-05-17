@@ -10,12 +10,12 @@ if [[ $# -lt 1 ]] ; then
     exit 1
 fi
 
+basedir=`pwd`
 inputs=( "$@" )
 command="${inputs[0]}"
 service="${inputs[1]}"
 
 cd testing/io-mock
-
 case $command in
     start)
         yarn $command -d $service
