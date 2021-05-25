@@ -13,6 +13,7 @@
     "services/io-functions-services": "https://github.com/pagopa/io-functions-services.git",
     "services/io-functions-pushnotifications": "https://github.com/pagopa/io-functions-pushnotifications.git",
     "services/io-functions-public": "https://github.com/pagopa/io-functions-public.git",
-    "services/io-functions-assets": "https://github.com/pagopa/io-functions-assets.git"
+    "services/io-functions-assets": "https://github.com/pagopa/io-functions-assets.git",
+    "services/io-functions-eucovidcerts": "https://github.com/pagopa/io-functions-eucovidcerts.git"
   }
 }
