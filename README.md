@@ -32,3 +32,14 @@ To develop with original dependencies taken from package.json:
 ```
 sh cmd-set-mode npm
 ```
+
+# repo command
+The `repo` command replaces `cmd-set-mode`. It's a PoC that allows us to link and unlink local project selectively.
+
+```
+# DOC 
+# ./repo <link|unlink> <relative_project_path> [absolute_repo_path]
+
+# link local projects only for io-functions-admin
+./repo link services/io-functions-admin
+```
