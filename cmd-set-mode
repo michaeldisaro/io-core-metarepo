@@ -44,7 +44,7 @@ switch_from_symlinks_to_hard_copy(){
 case $mode in
   local)
     echo "Linking repositories with lerna bootstrap"
-    meta exec "rm -rf node_modules"
+    meta exec "rm -rf node_modules" --parallel
     lerna bootstrap -- --frozen-lockfile
     ;;
 
@@ -55,8 +55,13 @@ case $mode in
 
   npm)
     echo "Downloading all dependencies from npm"
-    meta exec "rm -rf node_modules"
-    meta exec "yarn install --frozen-lockfile"
+    meta exec "rm -rf node_modules" --parallel
+    meta exec "yarn install --frozen-lockfile" --parallel
+    ;;
+
+  clean)
+    echo "Cleaning all dependencies"
+    meta exec "rm -rf node_modules" --parallel
     ;;
 
   *)

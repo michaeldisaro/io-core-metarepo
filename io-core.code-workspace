@@ -60,9 +60,13 @@
         "outFiles": [
           "${workspaceFolder:Services}/io-functions-admin/src/**/*.js"
         ],
-        "skipFiles": [
-          "<node_internals>/**/*.js"
-        ]
+        "skipFiles": ["<node_internals>/**/*.js"]
+      },
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "fn-admin: Attach to Node Functions",
+        "port": 5861
       }
     ]
   }
