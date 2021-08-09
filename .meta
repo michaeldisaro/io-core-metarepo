@@ -3,6 +3,7 @@
     "utils/openapi-codegen-ts": "https://github.com/pagopa/openapi-codegen-ts.git",
     "commons/io-ts-commons": "https://github.com/pagopa/io-ts-commons",
     "commons/io-functions-commons": "https://github.com/pagopa/io-functions-commons.git",
+    "commons/io-spid-commons": "https://github.com/pagopa/io-spid-commons.git",
     "testing/io-mock": "https://github.com/pagopa/io-mock.git",
     "infrastructure/pagopa-authorization": "https://github.com/pagopa/pagopa-authorization.git",
     "infrastructure/io-infrastructure-live-new": "https://github.com/pagopa/io-infrastructure-live-new.git",
