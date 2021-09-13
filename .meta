@@ -15,6 +15,8 @@
     "services/io-functions-pushnotifications": "https://github.com/pagopa/io-functions-pushnotifications.git",
     "services/io-functions-public": "https://github.com/pagopa/io-functions-public.git",
     "services/io-functions-assets": "https://github.com/pagopa/io-functions-assets.git",
-    "services/io-functions-eucovidcerts": "https://github.com/pagopa/io-functions-eucovidcerts.git"
+    "services/io-functions-eucovidcerts": "https://github.com/pagopa/io-functions-eucovidcerts.git",
+    "services/io-functions-cgn":"https://github.com/pagopa/io-functions-cgn.git",
+    "services/io-functions-bonus":"https://github.com/pagopa/io-functions-bonus.git"
   }
 }
