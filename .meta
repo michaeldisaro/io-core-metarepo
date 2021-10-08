@@ -9,6 +9,7 @@
     "infrastructure/io-infrastructure-live-new": "https://github.com/pagopa/io-infrastructure-live-new.git",
     "infrastructure/io-infrastructure-modules-new": "https://github.com/pagopa/io-infrastructure-modules-new.git",
     "infrastructure/io-infra": "https://github.com/pagopa/io-infra.git",
+    "infrastructure/azurerm": "https://github.com/pagopa/azurerm.git",
     "services/io-backend": "https://github.com/pagopa/io-backend.git",
     "services/io-functions-admin": "https://github.com/pagopa/io-functions-admin.git",
     "services/io-functions-app": "https://github.com/pagopa/io-functions-app.git",
