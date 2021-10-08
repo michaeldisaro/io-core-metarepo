@@ -51,6 +51,22 @@
       {
         "type": "node",
         "request": "attach",
+        "name": "FNAPP Docker: Attach to Node",
+        "protocol": "auto",
+        "port": 5861,
+        "restart": true,
+        "localRoot": "${workspaceFolder}",
+        "remoteRoot": "/usr/src/app",
+        "outFiles": [
+          "${workspaceFolder}/dist/**/*.js"
+        ],
+        "skipFiles": [
+          "<node_internals>/**/*.js"
+        ]
+      },
+      {
+        "type": "node",
+        "request": "attach",
         "name": "fn-admin: Attach to Docker",
         "protocol": "auto",
         "port": 5861,
