@@ -21,6 +21,7 @@
     "services/io-functions-assets": "https://github.com/pagopa/io-functions-assets.git",
     "services/io-functions-eucovidcerts": "https://github.com/pagopa/io-functions-eucovidcerts.git",
     "services/io-functions-cgn":"https://github.com/pagopa/io-functions-cgn.git",
-    "services/io-functions-bonus":"https://github.com/pagopa/io-functions-bonus.git"
+    "services/io-functions-bonus":"https://github.com/pagopa/io-functions-bonus.git",
+    "services/io-functions-elt":"https://github.com/pagopa/io-functions-elt.git"
   }
 }
