@@ -91,6 +91,22 @@
         "request": "attach",
         "name": "fn-admin: Attach to Node Functions",
         "port": 5861
+      },
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "IOBE Docker: Attach to Node",
+        "protocol": "auto",
+        "port": 5859,
+        "restart": true,
+        "localRoot": "${workspaceFolder:Services}/io-backend",
+        "remoteRoot": "/usr/src/app",
+        "outFiles": [
+          "${workspaceFolder:Services}/io-backend/src/**/*.js"
+        ],
+        "skipFiles": [
+          "<node_internals>/**/*.js"
+        ]
       }
     ]
   }
