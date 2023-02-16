@@ -59,55 +59,6 @@
     "editor.renderLineHighlight": "all"
   },
   "launch": {
-    "configurations": [
-      {
-        "type": "node",
-        "request": "attach",
-        "name": "FNAPP Docker: Attach to Node",
-        "protocol": "auto",
-        "port": 5861,
-        "restart": true,
-        "localRoot": "${workspaceFolder}",
-        "remoteRoot": "/usr/src/app",
-        "outFiles": ["${workspaceFolder}/dist/**/*.js"],
-        "skipFiles": ["<node_internals>/**/*.js"]
-      },
-      {
-        "type": "node",
-        "request": "attach",
-        "name": "fn-admin: Attach to Docker",
-        "protocol": "auto",
-        "port": 5861,
-        "restart": true,
-        "localRoot": "${workspaceFolder:Services}/io-functions-admin",
-        "remoteRoot": "/usr/src/app",
-        "outFiles": [
-          "${workspaceFolder:Services}/io-functions-admin/src/**/*.js"
-        ],
-        "skipFiles": ["<node_internals>/**/*.js"]
-      },
-      {
-        "type": "node",
-        "request": "attach",
-        "name": "fn-admin: Attach to Node Functions",
-        "port": 5861
-      },
-      {
-        "type": "node",
-        "request": "attach",
-        "name": "IOBE Docker: Attach to Node",
-        "protocol": "auto",
-        "port": 5859,
-        "restart": true,
-        "localRoot": "${workspaceFolder:Services}/io-backend",
-        "remoteRoot": "/usr/src/app",
-        "outFiles": [
-          "${workspaceFolder:Services}/io-backend/src/**/*.js"
-        ],
-        "skipFiles": [
-          "<node_internals>/**/*.js"
-        ]
-      }
-    ]
+    "configurations": []
   }
 }

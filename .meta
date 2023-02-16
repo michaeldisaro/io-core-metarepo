@@ -4,6 +4,8 @@
     "commons/io-ts-commons": "https://github.com/pagopa/io-ts-commons",
     "commons/io-functions-commons": "https://github.com/pagopa/io-functions-commons.git",
     "commons/io-spid-commons": "https://github.com/pagopa/io-spid-commons.git",
+    "commons/io-openid-provider": "https://github.com/pagopa/io-openid-provider.git",
+    "commons/express-azure-functions": "https://github.com/pagopa/express-azure-functions.git",
     "testing/io-mock": "https://github.com/pagopa/io-mock.git",
     "infrastructure/pagopa-authorization": "https://github.com/pagopa/pagopa-authorization.git",
     "infrastructure/io-infrastructure-live-new": "https://github.com/pagopa/io-infrastructure-live-new.git",
@@ -13,9 +15,11 @@
     "infrastructure/azurerm": "https://github.com/pagopa/azurerm.git",
     "infrastructure/gitops": "https://github.com/pagopa/gitops.git",
     "services/io-backend": "https://github.com/pagopa/io-backend.git",
+    "services/io-functions-lollipop": "https://github.com/pagopa/io-functions-lollipop.git",
     "services/io-functions-admin": "https://github.com/pagopa/io-functions-admin.git",
     "services/io-functions-app": "https://github.com/pagopa/io-functions-app.git",
     "services/io-functions-services": "https://github.com/pagopa/io-functions-services.git",
+    "services/io-functions-services-cache": "https://github.com/pagopa/io-functions-services-cache.git",
     "services/io-functions-pushnotifications": "https://github.com/pagopa/io-functions-pushnotifications.git",
     "services/io-functions-public": "https://github.com/pagopa/io-functions-public.git",
     "services/io-functions-assets": "https://github.com/pagopa/io-functions-assets.git",
@@ -24,6 +28,7 @@
     "services/io-functions-cgn-merchant": "https://github.com/pagopa/io-functions-cgn-merchant",
     "services/io-functions-cgn-operator-search": "https://github.com/pagopa/io-functions-cgn-operator-search",
     "services/io-functions-bonus":"https://github.com/pagopa/io-functions-bonus.git",
+    "services/io-functions-app-messages":"https://github.com/pagopa/io-functions-app-messages.git",
     "services/io-functions-elt":"https://github.com/pagopa/io-functions-elt.git"
   }
 }

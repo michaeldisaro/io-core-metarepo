@@ -1,5 +1,7 @@
 {
   "name": "io-core",
   "private": true,
-  "devDependencies": {}
+  "devDependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
