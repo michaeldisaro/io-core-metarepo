@@ -2,6 +2,8 @@
   "name": "io-core",
   "private": true,
   "devDependencies": {
-    "fs": "^0.0.1-security"
+    "@types/jest": "^24.9.0",
+    "fs": "^0.0.1-security",
+    "jest": "^24.9.0"
   }
 }

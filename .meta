@@ -6,6 +6,9 @@
     "commons/io-spid-commons": "https://github.com/pagopa/io-spid-commons.git",
     "commons/io-openid-provider": "https://github.com/pagopa/io-openid-provider.git",
     "commons/express-azure-functions": "https://github.com/pagopa/express-azure-functions.git",
+    "commons/winston-ts":"https://github.com/pagopa/winston-ts.git",
+    "commons/hub-spid-login-ms": "https://github.com/pagopa/hub-spid-login-ms",
+    "commons/io-pagopa-commons": "https://github.com/pagopa/io-pagopa-commons",
     "testing/io-mock": "https://github.com/pagopa/io-mock.git",
     "infrastructure/pagopa-authorization": "https://github.com/pagopa/pagopa-authorization.git",
     "infrastructure/io-infrastructure-live-new": "https://github.com/pagopa/io-infrastructure-live-new.git",
@@ -29,6 +32,8 @@
     "services/io-functions-cgn-operator-search": "https://github.com/pagopa/io-functions-cgn-operator-search",
     "services/io-functions-bonus":"https://github.com/pagopa/io-functions-bonus.git",
     "services/io-functions-app-messages":"https://github.com/pagopa/io-functions-app-messages.git",
-    "services/io-functions-elt":"https://github.com/pagopa/io-functions-elt.git"
+    "services/io-functions-elt":"https://github.com/pagopa/io-functions-elt.git",
+    "services/io-functions-service-messages":"https://github.com/pagopa/io-functions-service-messages",
+    "services/io-functions-messages-cqrs":"https://github.com/pagopa/io-functions-messages-cqrs.git"
   }
 }
