@@ -10,6 +10,8 @@
     "commons/hub-spid-login-ms": "https://github.com/pagopa/hub-spid-login-ms",
     "commons/io-pagopa-commons": "https://github.com/pagopa/io-pagopa-commons",
     "testing/io-mock": "https://github.com/pagopa/io-mock.git",
+    "infrastructure/eng-azure-authorization": "https://github.com/pagopa/eng-azure-authorization.git",
+    "infrastructure/eng-github-authorization": "https://github.com/pagopa/eng-github-authorization.git",
     "infrastructure/pagopa-authorization": "https://github.com/pagopa/pagopa-authorization.git",
     "infrastructure/io-infrastructure-live-new": "https://github.com/pagopa/io-infrastructure-live-new.git",
     "infrastructure/io-infrastructure-modules-new": "https://github.com/pagopa/io-infrastructure-modules-new.git",
