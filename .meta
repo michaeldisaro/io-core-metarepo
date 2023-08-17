@@ -5,6 +5,7 @@
     "commons/io-functions-commons": "https://github.com/pagopa/io-functions-commons.git",
     "commons/io-spid-commons": "https://github.com/pagopa/io-spid-commons.git",
     "commons/io-openid-provider": "https://github.com/pagopa/io-openid-provider.git",
+    "commons/io-openid-rp-example": "https://github.com/pagopa/io-openid-rp-example.git",
     "commons/express-azure-functions": "https://github.com/pagopa/express-azure-functions.git",
     "commons/winston-ts":"https://github.com/pagopa/winston-ts.git",
     "commons/hub-spid-login-ms": "https://github.com/pagopa/hub-spid-login-ms",
