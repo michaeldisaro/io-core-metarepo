@@ -7,6 +7,12 @@
       "collapse-all": false
     },
     {
+      "name": "Monorepo",
+      "path": "./monorepo",
+      "collapse": false,
+      "collapse-all": false
+    },
+    {
       "name": "Commons",
       "path": "./commons",
       "collapse": false,
@@ -51,7 +57,8 @@
       "utils": true,
       "services": true,
       "testing": true,
-      "infrastructure": true
+      "infrastructure": true,
+      "monorepo": true
     },
     "editor.showFoldingControls": "always",
     "scm.diffDecorationsGutterWidth": 5,

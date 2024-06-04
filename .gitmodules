@@ -1,0 +1,153 @@
+
+[submodule "express-azure-functions"]
+path = commons/express-azure-functions
+url = ""
+
+[submodule "hub-spid-login-ms"]
+path = commons/hub-spid-login-ms
+url = ""
+
+[submodule "io-functions-commons"]
+path = commons/io-functions-commons
+url = ""
+
+[submodule "io-openid-provider"]
+path = commons/io-openid-provider
+url = ""
+
+[submodule "io-openid-rp-example"]
+path = commons/io-openid-rp-example
+url = ""
+
+[submodule "io-pagopa-commons"]
+path = commons/io-pagopa-commons
+url = ""
+
+[submodule "io-spid-commons"]
+path = commons/io-spid-commons
+url = ""
+
+[submodule "io-ts-commons"]
+path = commons/io-ts-commons
+url = ""
+
+[submodule "winston-ts"]
+path = commons/winston-ts
+url = ""
+
+[submodule "azurerm"]
+path = infrastructure/azurerm
+url = ""
+
+[submodule "eng-azure-authorization"]
+path = infrastructure/eng-azure-authorization
+url = ""
+
+[submodule "eng-github-authorization"]
+path = infrastructure/eng-github-authorization
+url = ""
+
+[submodule "io-infra"]
+path = infrastructure/io-infra
+url = ""
+
+[submodule "io-infrastructure-live-new"]
+path = infrastructure/io-infrastructure-live-new
+url = ""
+
+[submodule "io-infrastructure-modules-new"]
+path = infrastructure/io-infrastructure-modules-new
+url = ""
+
+[submodule "pagopa-authorization"]
+path = infrastructure/pagopa-authorization
+url = ""
+
+[submodule "pagopa-infra"]
+path = infrastructure/pagopa-infra
+url = ""
+
+[submodule "io-backend"]
+path = services/io-backend
+url = ""
+
+[submodule "io-functions-admin"]
+path = services/io-functions-admin
+url = ""
+
+[submodule "io-functions-app"]
+path = services/io-functions-app
+url = ""
+
+[submodule "io-functions-app-messages"]
+path = services/io-functions-app-messages
+url = ""
+
+[submodule "io-functions-assets"]
+path = services/io-functions-assets
+url = ""
+
+[submodule "io-functions-bonus"]
+path = services/io-functions-bonus
+url = ""
+
+[submodule "io-functions-cgn"]
+path = services/io-functions-cgn
+url = ""
+
+[submodule "io-functions-cgn-merchant"]
+path = services/io-functions-cgn-merchant
+url = ""
+
+[submodule "io-functions-cgn-operator-search"]
+path = services/io-functions-cgn-operator-search
+url = ""
+
+[submodule "io-functions-elt"]
+path = services/io-functions-elt
+url = ""
+
+[submodule "io-functions-eucovidcerts"]
+path = services/io-functions-eucovidcerts
+url = ""
+
+[submodule "io-functions-lollipop"]
+path = services/io-functions-lollipop
+url = ""
+
+[submodule "io-functions-messages-cqrs"]
+path = services/io-functions-messages-cqrs
+url = ""
+
+[submodule "io-functions-public"]
+path = services/io-functions-public
+url = ""
+
+[submodule "io-functions-pushnotifications"]
+path = services/io-functions-pushnotifications
+url = ""
+
+[submodule "io-functions-service-messages"]
+path = services/io-functions-service-messages
+url = ""
+
+[submodule "io-functions-services"]
+path = services/io-functions-services
+url = ""
+
+[submodule "io-functions-services-cache"]
+path = services/io-functions-services-cache
+url = ""
+
+[submodule "io-services-cms"]
+path = services/io-services-cms
+url = ""
+
+[submodule "io-mock"]
+path = testing/io-mock
+url = ""
+
+[submodule "openapi-codegen-ts"]
+path = utils/openapi-codegen-ts
+url = ""
+

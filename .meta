@@ -19,7 +19,6 @@
     "infrastructure/io-infra": "https://github.com/pagopa/io-infra.git",
     "infrastructure/pagopa-infra": "https://github.com/pagopa/pagopa-infra.git",
     "infrastructure/azurerm": "https://github.com/pagopa/azurerm.git",
-    "infrastructure/gitops": "https://github.com/pagopa/gitops.git",
     "services/io-backend": "https://github.com/pagopa/io-backend.git",
     "services/io-functions-lollipop": "https://github.com/pagopa/io-functions-lollipop.git",
     "services/io-functions-admin": "https://github.com/pagopa/io-functions-admin.git",
@@ -37,6 +36,9 @@
     "services/io-functions-app-messages":"https://github.com/pagopa/io-functions-app-messages.git",
     "services/io-functions-elt":"https://github.com/pagopa/io-functions-elt.git",
     "services/io-functions-service-messages":"https://github.com/pagopa/io-functions-service-messages",
-    "services/io-functions-messages-cqrs":"https://github.com/pagopa/io-functions-messages-cqrs.git"
+    "services/io-functions-messages-cqrs":"https://github.com/pagopa/io-functions-messages-cqrs.git",
+    "services/io-services-cms":"https://github.com/pagopa/io-services-cms.git",
+    "monorepo/io-fims":"https://github.com/pagopa/io-fims.git",
+    "monorepo/io-messages":"https://github.com/pagopa/io-messages.git"
   }
 }
