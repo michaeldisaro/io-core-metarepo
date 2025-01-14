@@ -67,6 +67,14 @@ url = ""
 path = infrastructure/pagopa-infra
 url = ""
 
+[submodule "io-fims"]
+path = monorepo/io-fims
+url = ""
+
+[submodule "io-messages"]
+path = monorepo/io-messages
+url = ""
+
 [submodule "io-backend"]
 path = services/io-backend
 url = ""
